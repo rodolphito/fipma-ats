@@ -1,0 +1,28 @@
+fipma
+ |
+ +- arithmetic
+ |    * fixed point
+ |    * precision specified by type
+ |    * signed/unsigned
+ |    * range implemented on top of 0..1 foundation
+ |    * dependent types eliminate 0 div
+ |    * use cpu instruction to get multiply high bits
+ |    * eliminate neg sqrts
+ |    * adc instruction sum
+ |    * modulus
+ |
+ +- geometry
+ |    * fast trigonometry with dependent types
+ |    * nd convex hulls
+ |
+ +- tensors
+ |    * multiply tensors of appropriate dimensions with dependent types
+ |    * optimal metaprogramming matrix multiply
+ |    * eigenvalue/eigenvector decomposition
+ |    * matrix inversion totality with maybe overload
+ |    * SIMD (AVX/AVX2) vector ops
+ |
+ +- diff eqs
+ |    * newton approximation
+ |    * nth order explicit runge-kutta methods
+ |    * nth order implicit runge-kutta methods
